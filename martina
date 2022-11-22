@@ -1,0 +1,13 @@
+age = int(input("Enter your age"))
+if age < 25:
+    print("High")
+else:
+    type_car = input("Fast car, Family car?(fast/fam)")
+    if type_car == "fam":
+        print("Low")
+    else:
+        had_an_accident = input("Had an accident (Y/N) ")
+        if had_an_accident == "Y":
+            print("High")
+        else:
+            print("Medium")
